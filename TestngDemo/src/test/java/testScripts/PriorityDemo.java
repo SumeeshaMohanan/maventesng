@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class SoftAssertionDemo {
+public class PriorityDemo {
 	public WebDriver driver;
 
 	@BeforeTest
@@ -19,36 +19,24 @@ public class SoftAssertionDemo {
 		driver.get("https://selenium.obsqurazone.com/index.php");
 	}
 
-	@Test
+	@Test(priority=0)
 	public void titleAssert() {
 		String title = driver.getTitle();
 		System.out.println(title);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals("Obsqura", title);//actaul and expcted result are different
+		softAssert.assertEquals("Obsqura Tes", title,"hello");
 		System.out.println("Assert");
 		softAssert.assertAll();
 	}
-	/* Assert with message and actaul and expected result are different
-	 @Test
-	
-	public void titleAssert() {
+	@Test(priority=1)
+	public void gettitle() {
 		String title = driver.getTitle();
 		System.out.println(title);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals("Obsqura Testi", title,"Assert Message");
-		System.out.println("Assert");
+		softAssert.assertEquals("Obsqura", title,"hi");
+		System.out.print("gettitle method");
 		softAssert.assertAll();
-	} */
-	/* Assert without message and actaul and expected result are Same
-	@Test
-	public void titleAssert() {
-		String title = driver.getTitle();
-		System.out.println(title);
-		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals("Obsqura Testing", title);
-		System.out.println("Assert");
-		softAssert.assertAll();
-	}*/
+	}
 	@AfterTest
 	public void closeBrowser() {
 		driver.close();

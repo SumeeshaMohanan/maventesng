@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 
 public class DataproviderDemo {
   @Test(dataProvider="mydata")
-  public void search() {
-	  String path = System.getProperty("user.dir");
-		System.out.println();
+  public void search(String uname, String passwd) {
+	  
+		System.out.println("Username:"+uname+"  Password:"+passwd);
   }
   @DataProvider(name = "mydata")
 	public Object[][] dataProvFunc(){
