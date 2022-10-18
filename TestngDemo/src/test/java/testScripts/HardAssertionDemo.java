@@ -22,8 +22,8 @@ public class HardAssertionDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://selenium.obsqurazone.com/index.php");
 		String title = driver.getTitle();
-		
-		Assert.assertEquals("", title);
 		System.out.print(title);
+		Assert.assertEquals("", title);
+		
 	}
 }

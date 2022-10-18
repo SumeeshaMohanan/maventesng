@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestContext;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -49,9 +48,5 @@ public class CrossBrowserDemo {
 
 		}
 
-	}
-	@AfterTest
-	public void close() {
-		driver.close();
 	}
 }
