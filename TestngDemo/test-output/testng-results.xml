@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6480" started-at="2022-10-18T14:43:05Z" finished-at="2022-10-18T14:43:11Z">
+  <suite name="Default suite" duration-ms="6128" started-at="2022-10-20T03:05:52Z" finished-at="2022-10-20T03:05:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6480" started-at="2022-10-18T14:43:05Z" finished-at="2022-10-18T14:43:11Z">
+    <test name="Default test" duration-ms="6128" started-at="2022-10-20T03:05:52Z" finished-at="2022-10-20T03:05:58Z">
       <class name="testScripts.HardAssertionDemo">
-        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:testScripts.HardAssertionDemo@2aa5fe93]" name="lauchBrowser" is-config="true" duration-ms="6415" started-at="2022-10-18T14:43:05Z" finished-at="2022-10-18T14:43:11Z">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:testScripts.HardAssertionDemo@2aa5fe93]" name="lauchBrowser" is-config="true" duration-ms="6055" started-at="2022-10-20T03:05:52Z" finished-at="2022-10-20T03:05:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method status="FAIL" signature="titleAssert()[pri:0, instance:testScripts.HardAssertionDemo@2aa5fe93]" name="titleAssert" duration-ms="24" started-at="2022-10-18T14:43:11Z" finished-at="2022-10-18T14:43:11Z">
+        <test-method status="FAIL" signature="titleAssert()[pri:0, instance:testScripts.HardAssertionDemo@2aa5fe93]" name="titleAssert" duration-ms="25" started-at="2022-10-20T03:05:58Z" finished-at="2022-10-20T03:05:58Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Hello expected [Obsqura Testing] but found [Obsqura]]]>

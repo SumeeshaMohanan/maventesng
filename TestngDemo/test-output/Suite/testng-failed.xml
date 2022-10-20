@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="TestAssertion(failed)">
+  <listeners>
+    <listener class-name="testScripts.ListenerDemo"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testScripts.SoftAssertionDemo">
+      <class name="testScripts.ListenerMain">
         <methods>
-          <include name="titleAssert"/>
-          <include name="lauchBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="TestFail"/>
         </methods>
-      </class> <!-- testScripts.SoftAssertionDemo -->
+      </class> <!-- testScripts.ListenerMain -->
     </classes>
-  </test> <!-- TestAssertion(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
