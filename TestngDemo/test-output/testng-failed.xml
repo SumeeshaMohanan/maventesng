@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="simpleform(failed)">
+    <groups>
+      <run>
+        <include name="Group 1"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testScripts.HardAssertionDemo">
+      <class name="testScripts.GroupingDemo">
         <methods>
-          <include name="titleAssert"/>
-          <include name="lauchBrowser"/>
+          <include name="sumCalculation"/>
+          <include name="chkTitle"/>
+          <include name="showMessage"/>
+          <include name="checkBoxSelectall"/>
+          <include name="selectRadio"/>
         </methods>
-      </class> <!-- testScripts.HardAssertionDemo -->
+      </class> <!-- testScripts.GroupingDemo -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- simpleform(failed) -->
+</suite> <!-- Failed suite [Suite] -->

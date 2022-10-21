@@ -3,6 +3,7 @@ package testScripts;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -24,5 +25,9 @@ public class HardAssertionDemo {
 		System.out.print(title);
 		Assert.assertEquals("Obsqura", title,"Hello");//expected result,actual result,message
 		System.out.print("Assert");
+	}
+	@AfterTest
+	public void closeBrowser() {
+		driver.close();
 	}
 }
