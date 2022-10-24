@@ -1,4 +1,4 @@
-package com.obsqurapages;
+package com.obsqura.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.scripts.SimpleFormScript">
+      <class name="com.obsqura.scripts.PayrollScripts">
         <methods>
-          <include name="browserClose"/>
+          <include name="loginapplication"/>
           <include name="lauchBrowser"/>
-          <include name="testInputForm"/>
         </methods>
-      </class> <!-- com.obsqura.scripts.SimpleFormScript -->
+      </class> <!-- com.obsqura.scripts.PayrollScripts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
