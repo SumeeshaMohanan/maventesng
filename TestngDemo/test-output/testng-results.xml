@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7400" started-at="2022-10-21T17:49:26Z" finished-at="2022-10-21T17:49:33Z">
+  <suite name="Default suite" duration-ms="14517" started-at="2022-11-01T06:53:26 IST" finished-at="2022-11-01T06:53:41 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7400" started-at="2022-10-21T17:49:26Z" finished-at="2022-10-21T17:49:33Z">
-      <class name="testScripts.PrintTableDataDemo">
-        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:testScripts.PrintTableDataDemo@5c1a8622]" name="lauchBrowser" is-config="true" duration-ms="6253" started-at="2022-10-21T17:49:26Z" finished-at="2022-10-21T17:49:32Z">
+    <test name="Default test" duration-ms="14517" started-at="2022-11-01T06:53:26 IST" finished-at="2022-11-01T06:53:41 IST">
+      <class name="testScripts.ExtentReportDemo">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:testScripts.ExtentReportDemo@df27fae]" name="lauchBrowser" is-config="true" duration-ms="6829" started-at="2022-11-01T06:53:26 IST" finished-at="2022-11-01T06:53:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="printData()[pri:0, instance:testScripts.PrintTableDataDemo@5c1a8622]" name="printData" duration-ms="918" started-at="2022-10-21T17:49:32Z" finished-at="2022-10-21T17:49:33Z">
+        <test-method status="PASS" signature="reportDemo()[pri:0, instance:testScripts.ExtentReportDemo@df27fae]" name="reportDemo" duration-ms="6924" started-at="2022-11-01T06:53:33 IST" finished-at="2022-11-01T06:53:40 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printData -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.PrintTableDataDemo@5c1a8622]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2022-10-21T17:49:33Z" finished-at="2022-10-21T17:49:33Z">
+        </test-method> <!-- reportDemo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.ExtentReportDemo@df27fae]" name="afterMethod" is-config="true" duration-ms="678" started-at="2022-11-01T06:53:40 IST" finished-at="2022-11-01T06:53:41 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testScripts.PrintTableDataDemo -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.ExtentReportDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

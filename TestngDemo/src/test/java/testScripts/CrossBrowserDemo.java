@@ -39,7 +39,7 @@ public class CrossBrowserDemo {
 
 			String path = System.getProperty("user.dir");
 			System.setProperty("webdriver.gecko.driver", path + "\\src\\main\\resources\\geckodriver.exe");
-			driver = new FirefoxDriver();// initializing chrome
+			driver = new FirefoxDriver();// initializing firefox
 
 		} else if (browser.equalsIgnoreCase("edge")) {
 			String path = System.getProperty("user.dir");
